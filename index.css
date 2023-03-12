@@ -1,0 +1,95 @@
+:root {
+  font-size: 16px;
+  color: #fff;
+  background-color: #1e1e1e;
+}
+h1 {
+  font-size: 2.0rem;
+  line-height: 1;
+}
+h2 {
+  font-size: 1.8rem;
+  line-height: 1;
+}
+p{
+    font-size: 2rem;
+}
+html {
+  height: 100vh;
+  width: 100vw;
+}
+main {
+  height: 100vh;
+  width: 100vw;
+  padding: 0 10vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content {
+  width: 30%;
+  margin: 0 auto;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+}
+main .card {
+  width: fit-content;
+  padding: 10rem 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  background-image: linear-gradient(rgba(35,35,35,0.7), rgba(35,35,35,0.7)) ,url("https://cdn.pixabay.com/photo/2016/11/21/16/02/outdoor-dining-1846137_960_720.jpg");
+  border-radius: 5rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  }
+
+main .card #welcome-el{
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+main .card h2 {
+  width: 100%;
+  text-align: center;
+  margin-top: 1rem;
+}
+main .card h1 {
+    text-align: center;
+  }
+.btn-width-flex{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+main .card #increment-btn {
+  background-color: #8b0000;
+  text-align: center;
+    line-height: 4rem;
+    width: 15rem;
+    height: 4rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin: 0.5rem 0;
+}
+main .card #save-btn {
+    text-align: center;
+    line-height: 4rem;
+    width: 15rem;
+    height: 4rem;
+    background-color: rgb(18, 110, 18);
+    border-radius: 1rem;
+    margin: 0.5rem 0;
+}
+main .card .p-vstupy{
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 1.5rem;
+}
